@@ -11,7 +11,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
 
-@Composable
 fun ConvertFirebase(imagem: Uri, context: Context): String {
 
     val storageReference: StorageReference = FirebaseStorage.getInstance().reference.child("images")
