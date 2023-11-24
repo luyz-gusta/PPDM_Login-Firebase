@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441366266165",
+    "project_id": "ppdm---login",
+    "storage_bucket": "ppdm---login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441366266165:android:d19ae7ebba7f54e5ab4c7c",
+        "android_client_info": {
+          "package_name": "com.example.ppdm_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2GO3Orq3T1yAQKJOYkdLIxMDN3BXn_S4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
