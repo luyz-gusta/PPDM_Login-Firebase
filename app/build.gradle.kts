@@ -124,4 +124,8 @@ dependencies {
     // Dependência do compose material
     implementation("androidx.compose.material3:material3:x.y.z")
     implementation ("androidx.compose.material:material:1.4.2")
+
+    // Dependência do compose material
+    implementation("androidx.compose.material3:material3:x.y.z")
+    implementation ("androidx.compose.material:material:1.4.2")
 }
