@@ -7,7 +7,7 @@ import retrofit2.Response
 class CadastroRepository {
     private val apiService = RetrofitHelper.postCadastroService()
 
-    suspend fun cadastroUsuario(
+     suspend fun cadastroUsuario(
         email: String,
         senha: String,
         foto: String

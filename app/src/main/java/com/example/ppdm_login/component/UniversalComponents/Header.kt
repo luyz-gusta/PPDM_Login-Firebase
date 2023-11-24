@@ -72,6 +72,7 @@ fun Header() {
         }
     }
 
+
     Column(
         modifier = Modifier
             .fillMaxWidth(),
@@ -106,7 +107,10 @@ fun Header() {
                     .align(alignment = Alignment.Center)
                     .clickable {
                         launcher.launch("image/*")
-                        imagem = ConvertFirebase(imagem = fotoUri!!, context = context)
+                        Log.e("foto", "$fotoUri",)
+                        fotoUri?.let {
+                            ConvertFirebase(imagem = it, context = context)
+                        }
                     },
                 shape = CircleShape,
                 border = BorderStroke(
@@ -117,7 +121,6 @@ fun Header() {
                         )
                 )
             ) {
-
                 AsyncImage(
                     model = imagem,
                     contentDescription = "",
@@ -132,10 +135,7 @@ fun Header() {
                 contentDescription = null,
                 modifier = Modifier
                     .size(30.dp)
-                    .align(Alignment.BottomEnd)
-                    .clickable {
-
-                    },
+                    .align(Alignment.BottomEnd),
             )
             Log.e("Aquiiiii", "Header: ${imagem}", )
         }
