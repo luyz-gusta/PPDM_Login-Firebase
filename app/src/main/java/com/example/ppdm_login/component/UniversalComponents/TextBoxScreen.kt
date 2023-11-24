@@ -27,15 +27,15 @@ fun TextBoxScreen(label : String, valor: String, aoMudar: (String) -> Unit ) {
             Text(
                 text = label,
                 fontSize = 12.sp,
-                color = Color(159, 152, 152, 255)
+                color = Color(159, 152, 152, 255 )
             )
         },
         modifier = Modifier
             .height(60.dp)
             .width(300.dp),
         colors = TextFieldDefaults.outlinedTextFieldColors(
-            focusedBorderColor = colorResource(id = R.color.cinza),
-            unfocusedBorderColor = colorResource(id = R.color.cinza )
+            focusedBorderColor = colorResource(id = R.color.azul),
+            unfocusedBorderColor = colorResource(id = R.color.azul )
         )
 
     )

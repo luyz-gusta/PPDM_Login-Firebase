@@ -57,8 +57,8 @@ fun TextFieldPasswordScreen(label: String, valor: String, aoMudar: (String) -> U
             )
         },
         colors = TextFieldDefaults.outlinedTextFieldColors(
-            focusedBorderColor = colorResource(id = R.color.cinza),
-            unfocusedBorderColor = colorResource(id = R.color.cinza)
+            focusedBorderColor = colorResource(id = R.color.azul),
+            unfocusedBorderColor = colorResource(id = R.color.azul)
         ),
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
         trailingIcon = {
