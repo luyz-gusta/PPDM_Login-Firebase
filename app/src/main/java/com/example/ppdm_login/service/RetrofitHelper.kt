@@ -12,5 +12,7 @@ object RetrofitHelper {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-
+    fun postCadastroService(): CadastroService {
+        return retrofitFactory.create(CadastroService::class.java)
+    }
 }
